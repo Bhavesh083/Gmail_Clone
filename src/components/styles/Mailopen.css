@@ -1,0 +1,65 @@
+.mail-open{
+    background-color: rgba(228, 228, 228, 0.411);
+    margin-left: 20px;
+    flex: 0.9;
+}
+.mail-open-header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mail-open-header .micns-left{
+    display: flex;
+    flex-direction: row;
+}
+.mail-open-header .micns-left i ,.mail-open-header .micns-right i {
+    font-size: smaller;
+    color: rgba(0, 0, 0, 0.651);
+    margin : 0.6rem;
+}
+.mail-open-header .micns-right{
+    display: flex;
+    flex-direction: row;
+}
+.mail-open .m-o-matter{
+    display: flex;
+    flex-direction: column;
+   height: 70vh;
+   background-color: white;
+   margin: 0.8rem;
+   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.53);
+}
+.m-o-matter .m-o-matter-head{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.m-o-matter-head h4{
+    font-size: 17px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.74);
+}
+.m-o-matter-head i{
+    margin: 0rem 0.5rem;
+    font-size: 20px;
+    color: rgb(255, 174, 0);
+}
+.m-o-matter-head p{
+    flex: 0.9;
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+}
+.m-o-matter-head span{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(128, 128, 128, 0.671);
+}
+.mail-open .m-o-matter-c{
+    margin: 10px 1rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.726);
+}

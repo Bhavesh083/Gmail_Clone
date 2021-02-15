@@ -1,0 +1,92 @@
+.mail-bdy{
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    flex:0.8
+}
+.left-right{
+    position: sticky;
+    top: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.left-i , .right-i {
+    display: flex;
+    flex-direction: row;
+}
+.left-i i, .right-i i{
+    color: grey;
+    margin: 1rem;
+}
+.left-i i:hover, .right-i i:hover{
+    font-size: 1rem;
+    color: rgb(255, 0, 0);
+}
+.sec-type-mail{
+    position: sticky;
+    top: 110px;
+    border-top: 2px solid rgba(128, 128, 128, 0.048);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.041);
+    display: flex;
+    justify-content: flex-start;
+}
+.mail-type{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+}
+.mail-type i{
+    margin: 1rem;
+}
+.mail-type span{
+    font-weight: bolder;
+}
+.mail-type i,span{
+    color: rgba(0, 0, 0, 0.527);
+}
+.mail-type:hover {
+    background-color: rgba(83, 83, 83, 0.048);
+}
+.selected-mail-type i,.selected-mail-type span ,.mail-type:hover i , .mail-type:hover span{
+    color: rgb(218, 37, 37);
+}
+.selected-mail-type:hover ,.selected-mail-type{
+    background-color: rgba(83, 83, 83, 0.048);
+    border-bottom: 2px solid red;
+}
+.primary:hover{
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+.promotions:hover{
+    border-bottom: 2px solid rgb(73, 209, 55);
+}
+.social:hover{
+    border-bottom: 2px solid rgb(0, 81, 255);
+}
+.promotions:hover{
+    border-bottom: 2px solid rgb(73, 209, 55);
+}
+.mails-list-box{
+    flex: 1;
+    max-height: 380px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+@media screen and (max-width:600px){
+    .mail-bdy{
+        margin-left: 0px;
+        background-color: rgb(255, 255, 255);
+        flex:1;
+    }
+    
+.mail-type{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 120px;
+}
+.mail-type i{
+    margin: 1rem 0.5rem 0.8rem 0.5rem;
+}
+}
